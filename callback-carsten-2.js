@@ -8,10 +8,10 @@
 //     const array = [1, 2, 3, 4, 5, 6]
 //     sqaure(array,squareNumber)  // return [1,4,9,16,25]
 // ```
-function squareNumber(number) {
-  console.log(number * number);
+function squareNumber(number, accumulator) {
+  console.log(`${number} * ${accumulator} is ` + number * accumulator);
 }
-squareNumber(5);
+squareNumber(5, 5);
 
 const array = [1, 2, 3, 4, 5, 6];
 function square(array) {
